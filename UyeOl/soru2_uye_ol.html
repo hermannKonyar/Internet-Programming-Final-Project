@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>ÜYE-KAYIT</title>
+<meta charset="utf-8">
+<style>
+.sutun1{
+    text-align:right;
+    background-color:#D4FFAA;
+    padding-right:3px;
+}
+ 
+.sutun2{
+    background-color:#FFC;
+    padding-left:3px;
+}
+table{
+    border:#999 thin solid;
+}
+</style>
+</head>
+ 
+<body>
+
+<form name="form1" method="post" action="">
+<table border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td class="sutun1">Adı Soyadı:</td>
+    <td class="sutun2">
+      <input name="adisoyadi" type="text" size="35" maxlength="30" value="" />*</td>
+  </tr>
+  <tr>
+    <td class="sutun1">Kullanıcı Adı:</td>
+    <td class="sutun2"><input type="text" name="kullaniciadi" maxlength="15" value="" />*</td>
+  </tr>
+  <tr>
+    <td class="sutun1">E-mail:</td>
+    <td class="sutun2"><input name="email" type="text" size="35" maxlength="30" value="" />*</td>
+  </tr>
+  <tr>
+    <td class="sutun1">E-maili Gizle:</td>
+    <td class="sutun2"><input type="checkbox" name="emailigizle" value="h"></td>
+  </tr>
+  <tr>
+    <td class="sutun1">Şifre:</td>
+    <td class="sutun2"><input type="password" name="sifre" value="" />*</td>
+  </tr>
+  <tr>
+    <td class="sutun1">Tekrar Şifre:</td>
+    <td class="sutun2"><input type="password" name="tekrarsifre" value="" />*</td>
+  </tr>
+  <tr>
+    <td class="sutun1">Cinsiyeti:</td>
+    <td class="sutun2">
+        <input type="radio" name="cinsiyeti" value="e"/>Erkek 
+        <input type="radio" name="cinsiyeti" value="k"/>Kadın
+    </td>
+  </tr>
+  <tr>
+    <td class="sutun1">Doğum Tarihi:</td>
+    <td class="sutun2">
+
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="2018-01-01" max="2018-12-31">
+    </td>
+  </tr>
+  <tr>
+    <td class="sutun1"></td>
+    <td class="sutun2"><input type="submit" name="kaydet" value="Kaydet"></td>
+  </tr>
+</table>
+</form>
+</body>
+</html>
